@@ -10,6 +10,7 @@ app.use(express.json());
 
 //Page Routes
 app.get('/', (req, res) => res.send('Hello From Store Api'))
+
 app.use('/api/v1/products', productRoute);
 
 //Middleware Group

@@ -3,5 +3,4 @@ const { createProduct, getAllProductsStatic, getAllProducts } = require('../cont
 const router = express.Router();
 router.get('/static', getAllProductsStatic);
 router.get('/', getAllProducts);
-router.post('/', createProduct);
 module.exports = router;
